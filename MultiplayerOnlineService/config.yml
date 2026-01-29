@@ -1,0 +1,19 @@
+redisServer:
+  host: redis://xx.xx.x.xx:6379
+  name: MATH_SERVICE
+  secret: LSQUHVw3ZC2IW3lV9Wh1Od5dWzdHmTi3
+  apiPrefix: /api
+  port: 1868
+
+# service 配置
+localService:
+  apiPrefix: /api
+  port: 1868
+
+jwtServer:
+  secret: jTxYBOQvAQKaNsSf7I3Qg7q0cPIzWdhG
+  exp: 10h
+
+emailServer:
+  user: XXXXXX@XXX.com
+  pass: XXXXXXXX

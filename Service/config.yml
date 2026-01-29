@@ -1,0 +1,32 @@
+# redis 微服务配置
+redisServer:
+  host: redis://xx.xx.xx.xx:6379
+  name: MATH_SERVICE
+  secret: LSQUHVw3ZC2IW3lV9Wh1Od5dWzdHmTi3
+
+# service 配置
+localService:
+  apiPrefix: /api
+  port: 1868
+
+# redis 配置
+rServer:
+  host: xx.xx.xx.xx
+  port: 6379
+  secret: LSQUHVw3ZC2IW3lV9Wh1Od5dWzdHmTi3
+
+# token 配置
+jwtServer:
+  secret: jTxYBOQvAQKaNsSf7I3Qg7q0cPIzWdhG
+  exp: 10h
+
+# 邮箱配置
+emailServer:
+  user: XXXXXX@XXX.com
+  pass: XXXXXXXX
+
+# socket.io 客户端配置
+socketIOClient:
+  port: 1869
+  host: http://xx.xx.xx.xx:1869
+  path: /api/v1/ws

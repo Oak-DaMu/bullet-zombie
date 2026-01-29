@@ -1,0 +1,16 @@
+{
+    "decisionData": [
+        { "input": { "ghostHealth": 1
+            }, "output": { "RunawayBehaviorMode": 1
+            }
+        },
+        { "input": { "ghostHealth": 0.7
+            }, "output": { "normalBehaviorMode": 1
+            }
+        },
+        { "input": { "ghostHealth": 0.4
+            }, "output": { "crazyBehaviorMode": 1
+            }
+        }
+    ]
+}
